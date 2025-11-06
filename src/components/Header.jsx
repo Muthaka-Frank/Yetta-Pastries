@@ -1,8 +1,8 @@
 // src/components/Header.jsx
 import React from 'react';
 import { Link } from 'react-router-dom'; // 👈 Import Link
-import '../App.css'; // Assuming styles are shared
-import '../index.css';
+import '../Home/App.css'; // Assuming styles are shared
+import '../Home/index.css';
 
 // This is the header from your App.jsx
 const Header = () => {

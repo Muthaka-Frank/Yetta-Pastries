@@ -448,3 +448,95 @@ main {
     min-height: 48px; /* Ensure consistent height */
     margin-bottom: 15px;
 }
+
+/* --- ADD THESE STYLES TO src/Home/App.css --- */
+
+/* --- Auth Page Styles --- */
+.auth-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--color-shadow);
+    text-align: center;
+}
+
+.auth-container h1 {
+    font-size: 1.8rem;
+    color: var(--color-text-primary);
+    margin-bottom: 25px;
+}
+
+.auth-container h2 {
+    font-size: 1.5rem;
+    color: var(--color-text-secondary);
+    border-bottom: none; /* Override global h2 style */
+    margin-bottom: 20px;
+}
+
+/* Google Button Container */
+.google-login-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Divider */
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: var(--color-border);
+    margin: 25px 0;
+}
+
+/* Login/Signup Forms */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"],
+.auth-form input[type="text"] {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background-color: var(--color-background);
+    color: var(--color-text-secondary);
+}
+
+.auth-form button {
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: var(--color-text-primary);
+    color: var(--color-background);
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: var(--color-accent);
+}
+
+.auth-form p {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+}
+
+.auth-form p a {
+    font-weight: bold;
+    color: var(--color-text-primary);
+    text-decoration: underline;
+}
+
+#message-area {
+    margin-top: 20px;
+    font-weight: bold;
+    color: var(--color-text-primary);
+}

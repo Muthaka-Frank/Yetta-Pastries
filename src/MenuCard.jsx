@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom'; // 👈 IMPORT LINK
-import './App.css';
+import './Home/App.css';
 
 // Ensure the props match the keys in your App.jsx menuData
 const MenuCard = ({ id, title, linkUrl, imageSrc, imageAlt, items, animationClass, animationDelay }) => {

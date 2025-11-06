@@ -1,7 +1,7 @@
 // src/IceCream/IceCreamPage.jsx
 import React, { useState, useEffect } from 'react';
-import '../App.css'; // Shared component styles
-import '../index.css'; // Global styles and variables
+import '../Home/App.css'; // Shared component styles
+import '../Home/index.css'; // Global styles and variables
 import './icecream.css'
 // --- Ice Cream Data ---
 const iceCreamData = [

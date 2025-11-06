@@ -1,8 +1,8 @@
 // src/Cake/cake.jsx
 import React from 'react';
 // 1. FIXED CSS PATHS: Go up from 'Cake' then down into 'Home'
-import '../App.css'; 
-import '../index.css';
+import '../Home/App.css'; 
+import '../Home/index.css';
 import './cake.css';
 
 // 2. REMOVED: Broken import for 'CakeCard.jsx' (it's not used)

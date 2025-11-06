@@ -1,8 +1,8 @@
 // src/Home/App.jsx
 import React, { useState, useEffect } from 'react';
 import MenuCard from '../MenuCard.jsx'; // Correct relative import path
-import '../App.css';   
-import '../index.css';
+import '../Home/App.css';   
+import '../Home/index.css';
 
 // --- Menu and Image Data (Fixed Link URLs) ---
 const menuData = { 
